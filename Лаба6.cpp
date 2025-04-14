@@ -7,7 +7,8 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	int  Nl,k;
+	int  Nl;//Матрица
+	int k;
 	cout<<"введите кол-во строк и столбцов: ";
 	cin >> Nl;
 	int matrix[100][100];
