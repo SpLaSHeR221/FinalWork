@@ -7,23 +7,23 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	int  N,k;
+	int  Nl,k;
 	cout<<"введите кол-во строк и столбцов: ";
-	cin >> N;
+	cin >> Nl;
 	int matrix[100][100];
 	cout << "Введите элементы матрицы: ";
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
+	for (int i = 0; i < Nl; i++) {
+		for (int j = 0; j < Nl; j++) {
 			cin >> matrix[i][j];
 		}
 	}
-	for (j = 0;j < N;j++) {
-		for (i = 0;i < N;i++) {
+	for (j = 0;j < Nl;j++) {
+		for (i = 0;i < Nl;i++) {
 			if (matrix[i][j] == 0) {
 				break;
 			}
 		}
-		if (j == N) {
+		if (j == Nl) {
 			k++
 		}
 	}
